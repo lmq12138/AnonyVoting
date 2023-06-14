@@ -25,7 +25,7 @@ contract Management {
     function createVoteCandidate(address _voteAddr, string[] _candidateList)
         public
     {
-        Vote(_voteAddr).setVoteCandidate(_candidateList);
+        Vote(_voteAddr).setVoteCandidate(_candidateList);  
     }
 
     function createVoteWe(
