@@ -6,7 +6,7 @@ import "./VoteWe.sol";
 contract Management {
     mapping(address => string[]) voteListMap;
     mapping(string => address) voteAddrMap;
-    mapping(string => string) RecordVoteType;
+    mapping(string => string) RecordVoteType; \\
 
     function createVote(
         string _voteId,
